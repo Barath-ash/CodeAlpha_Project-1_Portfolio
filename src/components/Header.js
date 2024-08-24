@@ -10,7 +10,7 @@ export default function Header(){
 
 
          <header className="flex  justify-between px-5 py-2 bg-primary">
-            <a className="font-bold text-black text-2xl " href="#">D Barath </a>
+            <a className="font-bold text-black text-2xl  " href="/">D Barath </a>
             <nav className="hidden md:block">
             <ul className="flex text-white text-xl font-medium hover:text-secondary">
             <li> <a className='hover:text-blue-950 duration-500' href='/'>Home</a></li>  

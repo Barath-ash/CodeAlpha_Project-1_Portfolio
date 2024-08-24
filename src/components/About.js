@@ -5,7 +5,7 @@ export default function About(){
 
     const config = {
         line: 'Hi, My name is D Barath.  I am a Frontend web developer.  I built beautiful websites with React.js and Tailwind.CSS',
-        line2: 'I am proficient in Frontend skills like React.js, Redux, Tool Kit, Axios, Tailwin CSS,Sass, Css3 and many more.',
+        line2: 'I am proficient in Frontend skills like React.js, Redux, Tool Kit, Axios, TailWind CSS,Sass, Css3 and many more.',
         line3: 'In backend I know Node.js, Express.js, MongoDB, and Mongoose ',
     };
 

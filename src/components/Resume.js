@@ -1,12 +1,10 @@
 import Resume_img from '../assets/resume.jpg'
+import Resume_PDF from '../assets/BARATH D-RESUME-1.pdf';
 
 
 export default function Resume(){
 
-     const config = {
-      link: 'https://www.antennahouse.com/hubfs/xsl-fo-sample/pdf/basic-link-1.pdf',
-     }
-
+    
 
     return(
         <>
@@ -17,7 +15,7 @@ export default function Resume(){
          <div className="md:w-1/2  flex flex-row justify-center">  
             <div className="flex flex-col justify-center text-white  ">
                 <h1 className='  text-4xl border-b-4 border-primary   font-bold w-[140px]' >Resume</h1>
-                <p className="  mt-5 pb-5">You can view my resume <a className="btn" href={config.link}>Download</a> </p>
+                <p className="  mt-5 pb-5">You can view my resume <a className="btn" href={Resume_PDF} download="Resume"> Download  </a> </p>
                  
              </div>
             </div> 

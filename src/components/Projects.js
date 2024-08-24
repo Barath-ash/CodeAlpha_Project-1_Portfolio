@@ -1,6 +1,6 @@
-import websiteImg1 from '../assets/ecommerce-websites.jpg'
-import websiteImg2 from '../assets/food-ecommerce.jpg'
-import websiteImg3 from '../assets/website-blog.jpg'
+import websiteImg1 from '../assets/Greenden.jpeg'
+import websiteImg2 from '../assets/Nostra.jpeg'
+import websiteImg3 from '../assets/Udemy.jpeg'
 
 
 export default function Projects(){
@@ -8,21 +8,21 @@ export default function Projects(){
        const config = {
         projects : [
             {
-                Image: websiteImg1,
-                description: '  A Ecommerce Website.  Built with MERN Stack.',
-                link1: '#',
+                Image: websiteImg2,
+                description: '  A Ecommerce Website.  Built Using FrontEnd Languages.',
+                link: 'https://barath-ash.github.io/NOSTRA/',
                 
 
             },
             {
-                Image: websiteImg2,
-                description: 'Food Ecommerce Website like Swiggy, Built with Angular & .Net',
-                link: '#',
+                Image: websiteImg1,
+                description: 'Plant Ecommerce Website like The Sill, Built with HTML & CSS',
+                link: 'https://barath-ash.github.io/Greenden-Tailwind/',
             },
             {
                 Image: websiteImg3,
-                description: '  Basic Blog Website.  Built with Next JS and MongoDB.',
-                link: '#',
+                description: '  Basic Udemy Website.  Built with React.JS & TailWind.',
+                link: 'https://udemy-react-drab.vercel.app/',
             }
         ]
        }
@@ -42,16 +42,16 @@ export default function Projects(){
             </div>
          </div>
          <div className="w-full mt-5  ">
-            <div className='flex flex-col md:flex-row px-10 gap-5 '>
+            <div className='flex flex-col  md:flex-row px-24 gap-20 '>
                 {config.projects.map((project) =>(
                 <div className='relative '>
-                     <img  className="h-[200px] w-[500px] "  src={project.Image}/> 
+                     <img  className="    md:h-[250px] w-[300px] "  src={project.Image}/> 
                        <div className='project-desc'>
                           <p className=' text-center py-5 px-5'>
                             {project.description}
                           </p>
                           <div className='flex justify-center'>
-                        <a className='btn' target='_blank' href="">View Project </a>
+                        <a className='btn' target='_blank' href={project.link}>View Project </a>
                     </div>
                        </div>
                       
